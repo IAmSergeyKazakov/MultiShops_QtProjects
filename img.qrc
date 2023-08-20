@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/imgure">
+        <file>img/MainLogo.jpeg</file>
+    </qresource>
+</RCC>

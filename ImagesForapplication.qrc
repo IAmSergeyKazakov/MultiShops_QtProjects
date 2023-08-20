@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/imgures">
+        <file>img/secondLogo.jpeg</file>
+        <file>img/backgroundMainMenu.jpg</file>
+        <file>img/iconForBasket.jpeg</file>
+        <file>img/iconForShops.jpg</file>
+        <file>img/shopsListMenu.jpeg</file>
+        <file>img/mainLogo.jpeg</file>
+        <file>img/backgroundMain.jpeg</file>
+        <file>img/imageForEdok.jpg</file>
+        <file>img/homeIcon.jpg</file>
+        <file>img/back.jpg</file>
+        <file>img/imageForKirpichik.jpg</file>
+        <file>img/imagForCybertech.jpg</file>
+        <file>img/EmtybasketImage.png</file>
+    </qresource>
+</RCC>

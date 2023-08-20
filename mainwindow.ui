@@ -1,0 +1,2314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>791</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>10</y>
+      <width>791</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="currentIndex">
+     <number>6</number>
+    </property>
+    <widget class="QWidget" name="main">
+     <widget class="QLabel" name="backgroundForMainMenu">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>10</y>
+        <width>461</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+		border: 2px solid white;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>130</y>
+        <width>451</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	border: 3px solid rgb(43, 156, 255);;
+	border-radius:22px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="main_hint_label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>470</y>
+        <width>601</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 15px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="basketList_button">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>330</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Корзина</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>251</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Добро Пожаловать!</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="shopsList_button">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>330</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Магазины</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="reallySumMain">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>160</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>220</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 15px;
+}</string>
+      </property>
+      <property name="text">
+       <string>multiShops!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>160</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Сумма корзины:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="basketicon_label">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>380</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="shopsIcon_label">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>380</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="logo_label">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>500</y>
+        <width>91</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="shops">
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>30</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Магазины</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="toEdokShop_button">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>140</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Едок!</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="toKirpichikShop_button">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>270</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Кирпичик</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="toCybertechShop_button">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>400</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Cyber tech.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="shopsListBack_button">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>410</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>На главную</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="logo_label_2">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>500</y>
+        <width>91</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="imageForShopsMenu">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>10</y>
+        <width>431</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Edok">
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Магазины :</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="edok_toBasket_button">
+      <property name="geometry">
+       <rect>
+        <x>352</x>
+        <y>421</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Корзина</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="edok_back_button">
+      <property name="geometry">
+       <rect>
+        <x>602</x>
+        <y>421</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="edok_toMain_button">
+      <property name="geometry">
+       <rect>
+        <x>476</x>
+        <y>421</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>На главную</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="edokTableView">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>331</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView{
+    background-color: rgb(0, 170, 255);
+	font: 900 9pt &quot;Segoe UI&quot;;
+    alternate-background-color: rgb(141, 163, 215);
+	font-size:15px;
+	outline: 0;
+}
+
+QHeaderView::section {
+    color: white;
+	font: 900 9pt &quot;Segoe UI&quot;;	
+    background-color: rgb(64, 64, 64);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color: rgb(64, 64, 64);
+} 
+
+QTableView::item:selected
+{
+	color: white;
+	background-color: rgb(64, 64, 64);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color: rgb(64, 64, 64);
+}</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="what_cost_edok_label">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>260</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="add_edok">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>340</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Добавить в корзину</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>270</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Цена:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>530</y>
+        <width>781</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 15px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Чтобы добавить новый товар выделите его и клините &quot;Добавить в корзину&quot; :)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="edok_shopTitle_label">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>50</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Едок!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="logo_label_3">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>500</y>
+        <width>91</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="imageForEdok_label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>-10</y>
+        <width>411</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>190</y>
+        <width>81</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Товар:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="what_item_edok_label_2">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>230</y>
+        <width>281</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="what_item_edok_label">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>190</y>
+        <width>331</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="edok_home_icon">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>470</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="edok_back_icon">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>470</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="edok_basket_icon">
+      <property name="geometry">
+       <rect>
+        <x>362</x>
+        <y>471</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Kirpichik">
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Магазины :</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="kirpichik_toBasket_button">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>420</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Корзина</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="kirpichik_back_button">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>420</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="kirpichik_toMain_button">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>420</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>На главную</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>500</y>
+        <width>771</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 15px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Чтобы добавить новый товар выделите его и клините &quot;Добавить в корзину&quot; :)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="what_cost_kirpichik_label">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>260</y>
+        <width>331</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTableView" name="kirpichikTableView">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>331</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView{
+    background-color: rgb(0, 170, 255);
+	font: 900 9pt &quot;Segoe UI&quot;;
+    alternate-background-color: rgb(141, 163, 215);
+	font-size:15px;
+	outline: 0;
+}
+
+QHeaderView::section {
+    color: white;
+	font: 900 9pt &quot;Segoe UI&quot;;	
+    background-color: rgb(64, 64, 64);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color: rgb(64, 64, 64);
+} 
+
+QTableView::item:selected
+{
+	color: white;
+	background-color: rgb(64, 64, 64);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color: rgb(64, 64, 64);
+}</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="add_kirpichik">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>340</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Добавить в корзину</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>245</y>
+        <width>71</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Цена:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="kirpichik_shopTitle_label">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>40</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Кирпичик</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="logo_label_4">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>500</y>
+        <width>91</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="kirpichik_basket_icon">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>470</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="kirpichik_main_icon">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>470</y>
+        <width>49</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="kirpichik_back_icon">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>470</y>
+        <width>49</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="imageForKirpichik_label">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>-10</y>
+        <width>451</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="what_item_kirpichik_label">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>191</y>
+        <width>341</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="what_item_kirpichik_label_2">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>230</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>191</y>
+        <width>81</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Товар:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Cybertech">
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>131</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Магазины :</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="cybertech_back_button">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>420</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="cybertech_toMain_button">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>420</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>На главную</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="cybertech_toBasket_button">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>420</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Корзина</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="cybertechTableView">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>121</y>
+        <width>331</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView{
+    background-color: rgb(0, 170, 255);
+	font: 900 9pt &quot;Segoe UI&quot;;
+    alternate-background-color: rgb(141, 163, 215);
+	font-size:15px;
+	outline: 0;
+}
+
+QHeaderView::section {
+    color: white;
+	font: 900 9pt &quot;Segoe UI&quot;;	
+    background-color: rgb(64, 64, 64);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color: rgb(64, 64, 64);
+} 
+
+QTableView::item:selected
+{
+	color: white;
+	background-color: rgb(64, 64, 64);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color: rgb(64, 64, 64);
+}</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="add1_cybertech">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>340</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Добавить в корзину</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="dataerror_cybertech">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>490</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>520</y>
+        <width>801</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 15px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Чтобы добавить новый товар выделите его и клините &quot;Добавить в корзину&quot; :)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>259</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Цена:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="what_cost_cybertech_label">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>260</y>
+        <width>421</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>wdwdwd</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cybertech_shopTitle_label">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>0</y>
+        <width>201</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Cyber tech.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="logo_label_5">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>500</y>
+        <width>91</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Cybertech_image_label">
+      <property name="geometry">
+       <rect>
+        <x>358</x>
+        <y>0</y>
+        <width>411</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>190</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Товар:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="what_item_cybertech_label_2">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>230</y>
+        <width>451</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>wdwdwd</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="what_item_cybertech_label">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>190</y>
+        <width>401</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>wdwd</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cybertech_basket_icon">
+      <property name="geometry">
+       <rect>
+        <x>378</x>
+        <y>469</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cybertech_home_icon">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>470</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cybertech_back_icon">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>470</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Basket">
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-20</y>
+        <width>181</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Корзина</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="basketToShops_button">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>430</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Магазины</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="basketToMain_button">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>430</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>На главную</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="basketTableView">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>441</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView{
+    background-color: rgb(0, 170, 255);
+	font: 900 9pt &quot;Segoe UI&quot;;
+    alternate-background-color: rgb(141, 163, 215);
+	font-size:15px;
+	outline: 0;
+}
+
+QHeaderView::section {
+    color: white;
+	font: 900 9pt &quot;Segoe UI&quot;;	
+    background-color: rgb(64, 64, 64);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color: rgb(64, 64, 64);
+} 
+
+QTableView::item:selected
+{
+	color: white;
+	background-color: rgb(64, 64, 64);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color: rgb(64, 64, 64);
+}</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="reallySumlabel">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>340</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Всего: </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="sumLabel">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>320</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="addItem">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>310</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="logo_label_6">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>500</y>
+        <width>91</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="productlabel">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>400</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 17px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="costlabel">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>430</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 17px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="shoplabel">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>350</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 17px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>430</y>
+        <width>61</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 17px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Цена:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>397</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 17px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Товар:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="clearBasket_button">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>160</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Очистить корзину</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="removeBasket_button">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>100</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BasketAddItem_button">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>227</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color:black;
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>367</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 17px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Магазин: </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="nomeanAddLabel">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>320</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Может добавите еще?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_47">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>520</y>
+        <width>721</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 15px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Чтобы удалить товар выделите строчку, где он расположен и нажмите &quot;Удалить&quot;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_48">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>480</y>
+        <width>791</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 14px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Чтобы добавить товар, который лежит в корзине выделите строчку, где он расположен и нажмите &quot;+&quot;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="firstPage">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QLabel" name="background_Main_label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>791</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="enterProgramm_logo_label">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>30</y>
+        <width>361</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="enterProgramm_button">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>160</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 68, 255);
+	font-size: 22px;	
+	border-radius: 13px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Войти</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ifEmptyBasket">
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>270</y>
+        <width>451</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 40px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Упс! </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="emptyBasket_toShop_button">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>460</y>
+        <width>291</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	border: 2px solid black;
+	background-color: rgb(0, 170, 255);
+	font-size: 15px;	
+	border-radius: 20px;	
+	color:black;
+}
+
+QPushButton:pressed
+{
+	background-color: rgb(26, 18, 139);
+}
+
+QPushButton:hover
+{
+	background-color: rgb(14, 118, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Магазины</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="logo_label_7">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>500</y>
+        <width>91</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>370</y>
+        <width>681</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	font: 900 9pt &quot;Segoe UI&quot;;
+	font-size: 20px;
+}</string>
+      </property>
+      <property name="text">
+       <string>В корзине еще ничего нет! Присмотрите что-нибудь?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="imageForEmptyBasket_label">
+      <property name="geometry">
+       <rect>
+        <x>138</x>
+        <y>20</y>
+        <width>541</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
